@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous:700');
+
+*{
+margin: 0;
+font-family: Righteous;
+font-weight: 600;
+}
+.App {
+  background-image: url('./assets/bgSearch.jpg');
+background-size: 1920px;
+  text-align: center;
+}
+
+.searchbar{
+  min-height: 300px;
+  display: grid;
+  place-items: center;
+}
+
+.inputBox{
+  background-color: white;
+  border-radius: 15px;
+  height: 45px;
+  width: 480px;
+  margin: 0px 10px 0 0;
+  font-size: x-large;
+}
+
+.inputButton{
+  background-color: blueviolet;
+  border-radius: 15px;
+  height: 45px;
+  width: 100px;
+}

@@ -17,7 +17,7 @@ function SearchPage() {
   }
   return (
     <>
-      <p>Total {Object.entries(AnimeResult()).length} Matching Anime Characters</p>
+      <p>Total Number of {Object.entries(AnimeResult()).length} Matching Anime Characters</p>
       <div>
         {Object.entries(AnimeResult()).map(([index, values]) => {
           return (
